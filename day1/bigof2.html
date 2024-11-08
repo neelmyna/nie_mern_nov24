@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Big Of 2 Numbers </title>
+        <style type="text/css">
+            @import url("bigof2.css");
+        </style>
+    </head>
+    <body>
+        <div id="data">
+           <label for="firstNum"> First Number: </label> 
+           <input type="text" id="firstNum">
+           <label for="secondNum"> Second Number: </label> 
+           <input type="text" id="secondNum">
+        </div>
+        <div>
+            <p id="outputPara" onclick="findBigOf2()"> Click Me to get the Answer </p>
+        </div>
+        <script>
+            function findBigOf2() {
+                num1 = parseInt(document.getElementById("firstNum").value)
+                num2 = parseInt(document.getElementById("secondNum").value)
+                if(num1 > num2)
+                    document.getElementById("outputPara").innerHTML = "Number1 = " + num1 + " is big"
+                else
+                document.getElementById("outputPara").innerHTML = "Number1 = " + num2 + " is big"
+            }
+        </script>
+    </body>
+</html>

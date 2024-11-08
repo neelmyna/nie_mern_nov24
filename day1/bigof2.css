@@ -1,0 +1,18 @@
+p {
+    background-color: blueviolet;
+    color: aquamarine;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 2px grey;
+}
+
+label {
+    display: block;
+}
+
+.button {
+    margin-top: 5px;
+    border: 1px solid brown;
+    background-color: bisque;
+    font-weight: bold;
+}
