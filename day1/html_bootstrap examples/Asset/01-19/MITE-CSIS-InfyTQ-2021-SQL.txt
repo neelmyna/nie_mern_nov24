@@ -1,0 +1,54 @@
+SQL -> 
+ DDL, DML, TCL, DCL
+ 
+ create table employeedetail
+ alter table 
+ drop table 
+ 
+ 
+ create table employee(
+   empid integer,
+   empname varchar(500),
+   empsalary double,
+   bonus double, 
+   projectdept varchar(100),
+   primary key(empid));
+   
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(1,'John',27000,400,'Finance');
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(2,'Michael',20000,300,'Telecom');
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(3,'John',40000,600,'ENG');
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(4,'Mike',50000,700,'ENG');
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(5,'Robert',25000,NULL,'Telecom');
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(6,'Robert',20000,300,'Telecom');
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(7,'Peter',30000,NULL,'ENG');
+INSERT INTO  employee(
+  empid, empname, empsalary,  bonus, projectdept)
+VALUES(8,'Carl',27000,NULL,'Finance');  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
